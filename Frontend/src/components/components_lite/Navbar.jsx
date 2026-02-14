@@ -12,9 +12,10 @@ const Navbar = () => {
     <div className="bg-white">
         <div className="flex items-center justify-between mx-auto max-w-7x1h-16">
            <div>
-              <h1 className="text-2x1 font-bold">
-                Job <span className="text-[#022bf8]">Portal</span>
-              </h1> 
+              <h1 className="text-2xl font-bold">
+            <span className="text-[#6B3AC2]"> Job </span>{" "}
+            <span className="text-[#FA4F09]">Portal</span>
+          </h1>
             </div>
             <div className="flex items-center gap-3">
                <ul className="flex font-medium items-center gap-6">
