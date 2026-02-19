@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../components_lite/Navbar'
-import aman from './aman.jpg'; // Import the local image
-import anu from './anu.jpg';
-import rajat from './rajat.jpg';
+import vishal from './vishal.jpg'; // Import the local image
+import disha from './disha.jpg';
+import vansh from './vansh.jpg';
 
 const Creator = () => {
   return (
@@ -12,12 +12,12 @@ const Creator = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center w-full">
           {/* Image Section */}
           <div className="flex justify-center">
-            <img src={aman} alt="aman" className="h-80 object-cover rounded-lg shadow-md" />
+            <img src={vishal} alt="vishal" className="h-80 object-cover rounded-lg shadow-md" />
           </div>
           {/* Text Section */}
           <div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Aman</h2>
-            <p className="text-gray-600 mb-2">Aman completed his <strong>B.Tech in Electronics and Communication Engineering (ECE)</strong> from <strong>Shivnand Singh Institution of Technology and Management, Aligarh</strong>, in <strong>2002</strong>.</p>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Vishal</h2>
+            <p className="text-gray-600 mb-2">Vishal completed his <strong>B.Tech in Electronics and Communication Engineering (ECE)</strong> from <strong>Shivnand Singh Institution of Technology and Management, Aligarh</strong>, in <strong>2002</strong>.</p>
             <p className="text-gray-600 mb-2">After graduation, he joined <strong>Koderma Mines Institution</strong> as a <strong>part-time lecturer</strong>. He then pursued his <strong>M.Tech in Electrical Engineering</strong> from <strong>BIT Sindri, Dhanbad</strong>.</p>
             <p className="text-gray-600 mb-2">He was later selected as an <strong>Assistant Professor</strong> in the <strong>Electronics and Communication Engineering (ECE) Department</strong> at <strong>MIT Muzaffarpur</strong>. During his tenure there, he also completed his <strong>Ph.D. in Electrical Engineering</strong> from <strong>Bihar University, Muzaffarpur, in 2016</strong>.</p>
             <p className="text-gray-600">Following his Ph.D., he was transferred to <strong>Rashtrakavi Ramdhari Singh Dinkar College of Engineering (RRSDCE)</strong> as an <strong>Assistant Professor in the Electrical and Electronics Engineering (EEE) Department</strong>, where he continues to serve till date.</p>
@@ -32,15 +32,15 @@ const Creator = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Developer 1 - anu */}
           <a href="#" target="_blank" rel="noopener noreferrer" className="block text-center">
-            <img src={anu} alt="anu" className="mx-auto rounded-lg shadow-md" />
+            <img src={disha} alt="disha" className="mx-auto rounded-lg shadow-md" />
             <h3 className="text-lg font-semibold text-gray-700 mt-2">anu</h3>
             <p className="text-gray-600 text-sm">Registration No: 21110125035</p>
             <p className="text-gray-600 text-sm">Full Stack Developer</p>
           </a>
           {/* Developer 2 - rajat */}
           <a href="#" className="block text-center">
-            <img src={rajat} alt="rajat" className="mx-auto rounded-lg shadow-md" />
-            <h3 className="text-lg font-semibold text-gray-700 mt-2">rajat</h3>
+            <img src={vansh} alt="vansh" className="mx-auto rounded-lg shadow-md" />
+            <h3 className="text-lg font-semibold text-gray-700 mt-2">vansh</h3>
             <p className="text-gray-600 text-sm">Registration No: 21110125043</p>
             <p className="text-gray-600 text-sm">UI/UX Designer</p>
           </a>
