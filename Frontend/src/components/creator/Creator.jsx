@@ -16,7 +16,7 @@ const Creator = () => {
           </div>
           {/* Text Section */}
           <div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Vishal</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">vishal</h2>
             <p className="text-gray-600 mb-2">Vishal completed his <strong>B.Tech in Electronics and Communication Engineering (ECE)</strong> from <strong>Shivnand Singh Institution of Technology and Management, Aligarh</strong>, in <strong>2002</strong>.</p>
             <p className="text-gray-600 mb-2">After graduation, he joined <strong>Koderma Mines Institution</strong> as a <strong>part-time lecturer</strong>. He then pursued his <strong>M.Tech in Electrical Engineering</strong> from <strong>BIT Sindri, Dhanbad</strong>.</p>
             <p className="text-gray-600 mb-2">He was later selected as an <strong>Assistant Professor</strong> in the <strong>Electronics and Communication Engineering (ECE) Department</strong> at <strong>MIT Muzaffarpur</strong>. During his tenure there, he also completed his <strong>Ph.D. in Electrical Engineering</strong> from <strong>Bihar University, Muzaffarpur, in 2016</strong>.</p>
@@ -37,7 +37,7 @@ const Creator = () => {
             <p className="text-gray-600 text-sm">Registration No: 21110125035</p>
             <p className="text-gray-600 text-sm">Full Stack Developer</p>
           </a>
-          {/* Developer 2 - rajat */}
+          {/* Developer 2 - vansh */}
           <a href="#" className="block text-center">
             <img src={vansh} alt="vansh" className="mx-auto rounded-lg shadow-md" />
             <h3 className="text-lg font-semibold text-gray-700 mt-2">vansh</h3>
